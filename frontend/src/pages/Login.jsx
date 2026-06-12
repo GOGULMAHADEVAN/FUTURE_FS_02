@@ -8,7 +8,7 @@ export default function Login() {
   const login = async () => {
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        "https://future-fs-02-lb7r.onrender.com/api/auth/login",
         {
           username,
           password,
