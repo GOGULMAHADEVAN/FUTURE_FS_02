@@ -12,7 +12,7 @@ export default function Dashboard() {
   const fetchLeads = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:5000/api/leads"
+        "https://future-fs-02-lb7r.onrender.com/api/leads"
       );
 
       setLeads(res.data);
@@ -28,7 +28,7 @@ export default function Dashboard() {
   const addLead = async () => {
     try {
       await axios.post(
-        "http://localhost:5000/api/leads",
+        "https://future-fs-02-lb7r.onrender.com/api/leads",
         {
           name,
           email,
@@ -50,7 +50,7 @@ export default function Dashboard() {
 
   const deleteLead = async (id) => {
     await axios.delete(
-      `http://localhost:5000/api/leads/${id}`
+      `https://future-fs-02-lb7r.onrender.com/api/leads/${id}`
     );
 
     fetchLeads();
@@ -58,7 +58,7 @@ export default function Dashboard() {
 
   const updateStatus = async (id, status) => {
     await axios.put(
-      `http://localhost:5000/api/leads/${id}`,
+      `https://future-fs-02-lb7r.onrender.com/api/leads/${id}`,
       { status }
     );
 
