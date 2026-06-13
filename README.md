@@ -4,6 +4,11 @@
 
 A full-stack CRM application developed using React, Node.js, Express.js, and MongoDB.
 
+##login credentials
+
+*uid:admin
+*pwd:admin123
+
 ## Features
 
 * Secure Admin Login
