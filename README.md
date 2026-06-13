@@ -2,22 +2,34 @@
 
 ## Overview
 
-A full-stack CRM application developed using React, Node.js, Express.js, and MongoDB.
+Lead Management System is a full-stack CRM application designed to help businesses efficiently manage customer leads, track follow-ups, and monitor lead status throughout the sales pipeline.
 
-##login credentials
+Built using React, Node.js, Express.js, and MongoDB, the application provides a secure and user-friendly interface for managing lead information and improving sales workflow efficiency.
 
-*uid:admin
-*pwd:admin123
+---
+
+## Demo Credentials
+
+Use the following credentials to access the application:
+
+**Username:** admin
+
+**Password:** admin123
+
+---
 
 ## Features
 
-* Secure Admin Login
+* Secure Admin Authentication
 * Add New Leads
-* View Lead Listings
+* View and Manage Lead Listings
 * Update Lead Status
 * Delete Leads
-* Follow-up Notes
+* Follow-up Notes Management
 * Dashboard Analytics
+* Responsive User Interface
+
+---
 
 ## Tech Stack
 
@@ -36,30 +48,61 @@ A full-stack CRM application developed using React, Node.js, Express.js, and Mon
 * JWT Authentication
 * bcryptjs
 
+---
+
 ## Project Structure
 
-* frontend/
-* backend/
-* outputs/
+```text
+frontend/
+backend/
+outputs/
+```
 
-## How to Run
+---
 
-### Backend
+## Installation & Setup
 
+### Backend Setup
+
+```bash
 npm install
-
 npm run dev
+```
 
-### Frontend
+### Frontend Setup
 
+```bash
 npm install
-
 npm run dev
+```
+
+---
 
 ## Screenshots
 
-Screenshots are available inside the outputs folder.
+Project screenshots and output images are available in the `outputs` directory.
+
+---
+
+## Key Functionalities
+
+* User Authentication and Authorization
+* Lead Creation and Management
+* Status Tracking
+* Follow-up Scheduling
+* Dashboard Insights
+* Secure Data Handling
+
+---
 
 ## Author
 
-Gogul Mahadevan
+**Gogul Mahadevan**
+
+Full Stack Web Development Project
+
+---
+
+## License
+
+This project is developed for educational and portfolio purposes.
